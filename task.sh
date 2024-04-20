@@ -11,4 +11,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --chdir=/home/cs504319/cs5833-lab3
 
+. /home/fagg/tf_setup.sh
+conda activate dnn_2024_02
+
 python main.py
