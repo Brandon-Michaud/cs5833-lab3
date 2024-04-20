@@ -131,4 +131,5 @@ def setup_threads(check_interval, difficulty):
 
 
 if __name__ == '__main__':
+    print('test')
     setup_threads(15, 7)
